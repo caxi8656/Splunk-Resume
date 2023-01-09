@@ -1,11 +1,11 @@
-# Cryptocurrency
+# Interactive Animation 
 
-Catherine Xie
+Catherine Xie and Kai Franks
 
-This program transfers cryptocurrency units from person to person, called "BTC". A user will 
-start with a wallet with however much BTC, and can transfer payments to other users. Other
-users may also transfer money to a user, but if there is insufficient BTC in one's wallet --
-meaning one does not have enough funds -- then an error message will be displayed and the 
-payment will not go through. 
+This program is an interactive animation that contains seven rows of colored circles. The rows are ordered by way
+of a rainbow, from red to violet. The rows move with the mouse, if the cursor moves right the rows move right and 
+prints out "Mouse moving to the right" in the terminal. If the cursor moves left the rows move left and "Mouse
+moving to the left" in terminal.
 
-Each payments has the information of previous senders tied with it, to assure that there can be no counterfeiting. A single payment is called a "block" and the line of previous payments before it is called the "blockchain". A user may also view the information of each payment he or she receives or sends.
+If the user clicks their mouse or presses the space bar, then the rows will flip from red to violet to violet to
+red. If the user clicks their mouse or presses the space bar again the rows will flip back.
